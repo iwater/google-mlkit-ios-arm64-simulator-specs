@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "Google" => "cocoapods@google.com" }
   s.platform     = :ios, "15.5"
   s.swift_version = "5.7"
-  s.source       = { :http => "https://github.com/iwater/google-mlkit-ios-arm64-simulator/releases/download/v1.0.0/MLKitTextRecognitionKorean.xcframework.zip" }
+  s.source       = { :http => "https://github.com/iwater/google-mlkit-ios-arm64-simulator/releases/download/v1.0.1/MLKitTextRecognitionKorean.xcframework.zip" }
   s.vendored_frameworks = "MLKitTextRecognitionKorean.xcframework"
   s.resource_bundles = { "KoreanOCRResources" => ["Resources/KoreanOCRResources/**"] }
   s.frameworks = ["Accelerate", "AVFoundation", "CoreGraphics", "CoreImage", "CoreMedia", "CoreVideo", "Foundation", "UIKit"]

@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "Google" => "cocoapods@google.com" }
   s.platform     = :ios, "15.5"
   s.swift_version = "5.7"
-  s.source       = { :http => "https://github.com/iwater/google-mlkit-ios-arm64-simulator/releases/download/v1.0.0/MLKitCommon.xcframework.zip" }
+  s.source       = { :http => "https://github.com/iwater/google-mlkit-ios-arm64-simulator/releases/download/v1.0.1/MLKitCommon.xcframework.zip" }
   s.vendored_frameworks = "MLKitCommon.xcframework"
   s.frameworks = ["Foundation", "LocalAuthentication"]
   s.libraries  = ["c++", "sqlite3", "z"]
