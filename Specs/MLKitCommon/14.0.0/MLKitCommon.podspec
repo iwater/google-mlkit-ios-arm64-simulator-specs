@@ -11,4 +11,10 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "MLKitCommon.xcframework"
   s.frameworks = ["Foundation", "LocalAuthentication"]
   s.libraries  = ["c++", "sqlite3", "z"]
+  s.dependency 'GTMSessionFetcher/Core', '>= 3.3.2', '< 4.0'
+  s.dependency 'GoogleDataTransport', '~> 10.0'
+  s.dependency 'GoogleToolboxForMac/Logger', '>= 4.2.1', '< 5.0'
+  s.dependency 'GoogleToolboxForMac/NSData+zlib', '>= 4.2.1', '< 5.0'
+  s.dependency 'GoogleUtilities/Logger', '~> 8.0'
+  s.dependency 'GoogleUtilities/UserDefaults', '~> 8.0'
 end

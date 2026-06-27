@@ -11,4 +11,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "MLKitTextRecognitionCommon.xcframework"
   s.frameworks = ["Accelerate", "AVFoundation", "CoreGraphics", "CoreImage", "CoreLocation", "CoreMedia", "CoreVideo", "Foundation", "UIKit"]
   s.libraries  = ["c++"]
+  s.dependency 'MLKitCommon', '14.0.0'
+  s.dependency 'MLKitVision', '10.0.0'
 end

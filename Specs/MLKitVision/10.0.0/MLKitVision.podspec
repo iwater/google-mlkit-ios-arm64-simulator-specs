@@ -10,4 +10,9 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://github.com/iwater/google-mlkit-ios-arm64-simulator/releases/download/v1.0.1/MLKitVision.xcframework.zip" }
   s.vendored_frameworks = "MLKitVision.xcframework"
   s.frameworks = ["Accelerate", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "Foundation", "UIKit"]
+  s.dependency 'GTMSessionFetcher/Core', '>= 3.3.2', '< 4.0'
+  s.dependency 'GoogleToolboxForMac/Logger', '>= 4.2.1', '< 5.0'
+  s.dependency 'GoogleToolboxForMac/NSData+zlib', '>= 4.2.1', '< 5.0'
+  s.dependency 'MLImage', '1.0.0-beta8'
+  s.dependency 'MLKitCommon', '14.0.0'
 end

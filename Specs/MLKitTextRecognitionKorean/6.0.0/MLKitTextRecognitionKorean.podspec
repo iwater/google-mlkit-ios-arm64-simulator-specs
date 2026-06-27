@@ -12,4 +12,7 @@ Pod::Spec.new do |s|
   s.resource_bundles = { "KoreanOCRResources" => ["Resources/KoreanOCRResources/**"] }
   s.frameworks = ["Accelerate", "AVFoundation", "CoreGraphics", "CoreImage", "CoreMedia", "CoreVideo", "Foundation", "UIKit"]
   s.libraries  = ["c++"]
+  s.dependency 'MLKitCommon', '14.0.0'
+  s.dependency 'MLKitTextRecognitionCommon', '6.0.0'
+  s.dependency 'MLKitVision', '10.0.0'
 end
