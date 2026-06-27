@@ -17,4 +17,5 @@ Pod::Spec.new do |s|
   s.dependency 'GoogleToolboxForMac/NSData+zlib', '>= 4.2.1', '< 5.0'
   s.dependency 'GoogleUtilities/Logger', '~> 8.0'
   s.dependency 'GoogleUtilities/UserDefaults', '~> 8.0'
+  s.dependency 'MLKitAbseilStubs', '14.0.0'
 end
